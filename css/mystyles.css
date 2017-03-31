@@ -1,3 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+
+.navbar {
+    background: #06c;
+    border-bottom: 1px solid floralwhite;
+}
+
+.navbar-brand {
+    font-family: 'Calligraffitti', cursive;
+    font-weight: bold;
+}
+
+.jumbotron {
+    padding: 70px 30px;
+    margin: 0 auto;
+    background: #06c url(../img/sky.jpg) no-repeat center;
+    background-size: cover;
+    color: floralwhite;
+}
+
+.jumbotron h1 {
+    font-family: 'Calligraffitti', cursive;
+    font-weight: bold;
+    font-size: 4vw;
+    margin: 150px 0 150px 0;
+}
+
+.jumbotron #sub-header {
+    font-family: 'Clicker Script', cursive;
+    font-size: 2.5vw;
+}
+
 .row-header {
     margin: 0 auto;
     padding: 0 auto;
@@ -11,31 +44,9 @@
 }
 
 .row-footer {
-    background: #afafaf;
+    background: #06c;
     margin: 0 auto;
     padding: 20px 0 20px 0;
-}
-
-.navbar {
-    background: rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid floralwhite;
-}
-
-.jumbotron {
-    padding: 70px 30px;
-    margin: 0 auto;
-    background: #afafaf;
-    color: floralwhite;
-}
-
-.jumbotron h1 {
-    font-size: 4vw;
-    margin-top: 125px;
-}
-
-.jumbotron h3 {
-    font-size: 2vw;
-    margin: 75px 0 125px 0;
 }
 
 address {
