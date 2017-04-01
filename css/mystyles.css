@@ -36,6 +36,15 @@
     padding: 0 auto;
 }
 
+#about #profile-card {
+    text-align: center;
+}
+
+#about #profile-card figcaption {
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+
 .row-content {
     margin: 0 auto;
     padding: 50px 0 50px 0;
@@ -52,6 +61,10 @@
 address {
     font-size: 80%;
     margin: 0;
+    color: #0f0f0f;
+}
+
+address #email {
     color: #0f0f0f;
 }
 
